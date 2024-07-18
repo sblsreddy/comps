@@ -17,6 +17,12 @@ ng generate component elements/ElementsHome (elements is the module we created e
 # Step 4 : Display the new component elements-home
 
 
+# Step 5 : Create other components in respective modules
+ng generate component collections/CollectionsHome
+ng generate component views/ViewsHome
+ng generate component mods/ModsHome
+
+
 
 
 

@@ -2,13 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ModsRoutingModule } from './mods-routing.module';
+import { ModsHomeComponent } from './mods-home/mods-home.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ModsHomeComponent
+  ],
   imports: [
     CommonModule,
     ModsRoutingModule
-  ]
+  ],
+
+  exports: [ModsHomeComponent] //Exporting ModsHomeComponent outside mods module 
 })
 export class ModsModule { }
