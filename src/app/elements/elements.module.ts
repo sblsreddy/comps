@@ -14,6 +14,6 @@ import { ElementsHomeComponent } from './elements-home/elements-home.component';
     ElementsRoutingModule
   ],
 
-  exports:[ElementsHomeComponent]  //Exporting ElementsHomeComponent outside elements module so it can used whereever required
+  exports:[]  
 })
 export class ElementsModule { }
