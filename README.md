@@ -1,18 +1,20 @@
-# Comps
+# Step 1: Comps
 ng new comps --routing
 
 # when we create a component or module with uppercase it justs takes only lowercase and display in ide
 see the below generate commands and see the files inside vscode
 
-# create modules
+# Step 2: create modules
 ng g m Elements --routing or ng generate module Elements --routing
 ng g m Collections --routing or ng generate module Collections --routing
 ng g m Views --routing or ng generate module Views --routing
 ng g m Mods --routing or ng generate module Mods --routing
 
-# Create a component inside a module
+# Step 3 : Create a component inside a module
 
 ng generate component elements/ElementsHome (elements is the module we created earlier on line 5, now we are creating component inside it ElementsHome)
+
+# Step 4 : Display the new component elements-home
 
 
 
