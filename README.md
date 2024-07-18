@@ -1,4 +1,27 @@
 # Comps
+ng new comps --routing
+
+# create modules
+ng g m Elements --routing or ng generate module Elements --routing
+ng g m Collections --routing or ng generate module Collections --routing
+ng g m Views --routing or ng generate module Views --routing
+ng g m Mods --routing or ng generate module Mods --routing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
