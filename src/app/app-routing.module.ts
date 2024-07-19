@@ -8,6 +8,18 @@ const routes: Routes = [
     loadChildren:() => 
       import('./elements/elements.module').then(m => m.ElementsModule) // Lazy loading
   },
+  {path:'collections',
+      loadChildren:() =>
+        import('./collections/collections.module').then(m => m.CollectionsModule) // Lazy loading
+  },
+  {path: 'views', 
+    loadChildren:() => 
+      import('./views/views.module').then(m => m.ViewsModule) // Lazy loading
+  },
+  {path:'mods',
+      loadChildren:() =>
+        import('./mods/mods.module').then(m => m.ModsModule) // Lazy loading
+  },
   {path: '', component: HomeComponent},
   {path: '**', component: NotfoundComponent}
 ];
