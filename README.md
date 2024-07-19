@@ -30,6 +30,10 @@ ng generate component mods/ModsHome
 
 # Step 9 : npm install semantic-ui-css
 
+# Step 10: Implement navigation including home and not found
+
+# Step 11: Lazy loading and Eager loading ( By default, it will load eager loading)
+
 
 
 
