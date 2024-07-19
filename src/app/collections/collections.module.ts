@@ -14,6 +14,6 @@ import { CollectionsHomeComponent } from './collections-home/collections-home.co
     CollectionsRoutingModule
   ],
 
-  exports:[CollectionsHomeComponent] //Exporting CollectionsHomeComponent outside collections module so it can used whereever required
+  //Removing component export because we are directly not using this component in any other module, we will use based on routing rule
 })
 export class CollectionsModule { }
