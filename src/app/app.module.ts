@@ -17,12 +17,12 @@ import { NotfoundComponent } from './notfound/notfound.component';
     NotfoundComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
+    BrowserModule,    
     ElementsModule,  //Import the whole module ElementsModule ( not just the component) so it can be used anywhere/public in project
     CollectionsModule,//Import the whole module CollectionsModule ( not just the component) so it can be used anywhere/public in project
     ViewsModule, //Import ViewsModule
-    ModsModule //Import ModsModule
+    ModsModule, //Import ModsModule
+    AppRoutingModule // set of routing rules order matters. The Home and Notfound are in AppRoutingModule. Ordering is followed while resolving wildcharacters
   ],
   providers: [],
   bootstrap: [AppComponent]
