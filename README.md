@@ -22,6 +22,12 @@ ng generate component collections/CollectionsHome
 ng generate component views/ViewsHome
 ng generate component mods/ModsHome
 
+# Step 6 : Routing modules and routing rules by removing components from exports
+
+# Step 7 : Introducing classic hyperlinks for naviagtion and the down side is it refreshs complete page when we click on the link , you can observe this behaviour in developer tools and see the all option when navigating between links which will refresh the whole page
+
+
+
 
 
 
