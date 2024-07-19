@@ -1,15 +1,21 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * Remove direct connection and apply routing rule to display accordingly * * * * * * * * * * * -->
+<div class="ui container">
 
-<a routerLink="/elements">Elements </a>
+  <div class="ui secondary pointing menu">
+    <a routerLink="/elements" class="item">Elements</a>
 
-<a routerLink="/collections">Collections </a>
+    <a routerLink="/collections" class="item">Collections</a>
 
-<a routerLink="/views">Views</a>
+    <a routerLink="/views" class="item">Views</a>
 
-<a routerLink="/mods">Modules</a>
+    <a routerLink="/mods" class="item">Modules</a>
+  </div>
 
-<router-outlet></router-outlet>
+  <div class="ui segment">
+    <router-outlet></router-outlet>
+  </div>
+</div>
 
 
 
