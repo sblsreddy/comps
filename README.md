@@ -26,8 +26,9 @@ ng generate component mods/ModsHome
 
 # Step 7 : Introducing classic hyperlinks for naviagtion and the down side is it refreshs complete page when we click on the link , you can observe this behaviour in developer tools and see the all option when navigating between links which will refresh the whole page
 
+# Step 8 : routerLink is new hyperlinking used which will not refresh the whole page, it will display content on link
 
-
+# Step 9 : npm install semantic-ui-css
 
 
 
