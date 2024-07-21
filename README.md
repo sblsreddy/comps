@@ -28,11 +28,15 @@ ng generate component mods/ModsHome
 
 # Step 8 : routerLink is new hyperlinking used which will not refresh the whole page, it will display content on link
 
+# Step 9 : PlaceHolder component inside elements and display
+
+
+
 # Step 9 : npm install semantic-ui-css
 
 # Step 10: Implement navigation including home and not found
 
-# Step 11: Lazy loading and Eager loading ( By default, it will load eager loading)
+# Step 11: Lazy loading and Eager loading ( By default, it will load eager loading) of lesson 107 of stephen grinders udemy angular course
 
 
 
