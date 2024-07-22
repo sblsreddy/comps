@@ -30,13 +30,15 @@ ng generate component mods/ModsHome
 
 # Step 9 : PlaceHolder component inside elements and display
 
+# Step 10 : npm install semantic-ui-css
 
+# Step 11: Implement navigation including home and not found
 
-# Step 9 : npm install semantic-ui-css
+# Step 12: Lazy loading and Eager loading ( By default, it will load eager loading) of lesson 107 of stephen grinders udemy angular course
 
-# Step 10: Implement navigation including home and not found
+# Step 13 : only 1 <ng-content> can be used in 1 template by default, can we tune it to use it further.
 
-# Step 11: Lazy loading and Eager loading ( By default, it will load eager loading) of lesson 107 of stephen grinders udemy angular course
+# Step 14 : segment component creation and it is another reusable
 
 
 
