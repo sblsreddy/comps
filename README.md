@@ -40,6 +40,18 @@ ng generate component mods/ModsHome
 
 # Step 14 : segment component creation and it is another reusable
 
+# Step 15 : Hiding empty elements
+
+# Step 16 :
+
+# Step 17 :
+
+# Step 18 :
+
+# Step 19 :
+
+# Step 20 :
+
 
 
 
