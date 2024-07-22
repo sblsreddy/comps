@@ -48,7 +48,9 @@ ng generate component mods/ModsHome
 
 # Step 17 : Apply shared module to reuse by importing it in collections module
 
-# Step 18 :
+# Reference : https://gale.udemy.com/course/the-modern-angular-bootcamp/learn/lecture/17706812#questions/15229248
+
+# Step 18 : Tab based navigations 
 
 # Step 19 :
 
