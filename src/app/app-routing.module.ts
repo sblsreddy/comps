@@ -14,7 +14,7 @@ const routes: Routes = [
   },
   {path: 'views', 
     loadChildren:() => 
-      import('./views/views.module').then(m => m.ViewsModule) // Lazy loading
+      import('./views/views.module').then(m => m.ViewsModule) // In the App routing module, add a rule to Lazy load the viewModule when ever a user navigates to view
   },
   {path:'mods',
       loadChildren:() =>

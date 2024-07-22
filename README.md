@@ -52,9 +52,9 @@ ng generate component mods/ModsHome
 
 # Step 18 : Tab based navigations 
 
-# Step 19 :
+# Step 19 : Reusable tabs 
 
-# Step 20 :
+# Step 20 : Views module
 
 
 
