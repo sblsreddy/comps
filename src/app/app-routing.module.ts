@@ -18,7 +18,7 @@ const routes: Routes = [
   },
   {path:'mods',
       loadChildren:() =>
-        import('./mods/mods.module').then(m => m.ModsModule) // Lazy loading
+        import('./mods/mods.module').then(m => m.ModsModule) // In the App routing module, add a rule to Lazy load the modModule when ever a user navigates to mods
   },
   {path: '', component: HomeComponent},
   {path: '**', component: NotfoundComponent}

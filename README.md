@@ -56,6 +56,8 @@ ng generate component mods/ModsHome
 
 # Step 20 : Views module
 
+# Step 21 : Mods module
+
 
 
 
