@@ -40,11 +40,13 @@ ng generate component mods/ModsHome
 
 # Step 14 : segment component creation and it is another reusable
 
-# Step 15 : Hiding empty elements
+# Step 15 : Hiding empty elements using css when empty
 
-# Step 16 :
+# Reference : https://github.com/StephenGrider/ng-casts/tree/370e1b4e9cda3ad84b004494e3ff61e2c2fcf35c/diagrams/comps
 
-# Step 17 :
+# Step 16 : Reusable table components, Generate Table component in collections module
+
+# Step 17 : Apply shared module to reuse by importing it in collections module
 
 # Step 18 :
 
