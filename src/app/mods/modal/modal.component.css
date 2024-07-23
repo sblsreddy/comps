@@ -1,0 +1,17 @@
+.actions:empty{
+    display: none;
+}
+
+.actions-default{
+    display: none;
+}
+
+.actions:empty + .actions-default{
+    display: block;
+}
+
+.icon-placement {
+    top: 0.5rem !important; 
+    right: 0.5rem !important; 
+    color: rgba(0,0,0,.87) !important;
+}
