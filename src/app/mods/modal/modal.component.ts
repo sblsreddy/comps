@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef } from '@angular/core';
+import { Component, OnInit, ElementRef , EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-modal',
@@ -6,6 +6,8 @@ import { Component, OnInit, ElementRef } from '@angular/core';
   styleUrls: ['./modal.component.css']
 })
 export class ModalComponent implements OnInit {
+
+  @Output() close = new EventEmitter(); // classic child to parent communication scenario
 
   constructor(private el: ElementRef) { 
     console.log(this.el.nativeElement);
@@ -17,6 +19,10 @@ export class ModalComponent implements OnInit {
 
   ngOnDestory(): void{
     this.el.nativeElement.remove();
+  }
+
+  onCloseClick(){
+    this.close.emit(); // classic child to parent communication scenario
   }
 
 }
